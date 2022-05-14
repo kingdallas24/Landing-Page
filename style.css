@@ -45,6 +45,10 @@ li {
   background-color: #3882f6;
 }
 
+.cat-logo:hover {
+  width: 95px;
+}
+
 a {
   font-size: 18px;
   color: #e5e7eb;
@@ -115,6 +119,11 @@ button {
   height: 300px;
   width: 250px;
   border-radius: 10px;
+}
+
+.pictures > div:hover {
+  width: 270px;
+  height: 320pxß;
 }
 
 .info > h1 {

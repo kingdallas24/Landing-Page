@@ -41,6 +41,11 @@ input {
   border-radius: 20px;
 }
 
+.btn-container {
+  display: flex;
+  justify-content: center;
+}
+
 .submitBtn:hover {
   background: #3882f6;
   color: white;

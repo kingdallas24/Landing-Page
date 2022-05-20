@@ -1,7 +1,7 @@
 const inputs = document.querySelectorAll("input");
 const submitButton = document.querySelector("button");
+const form = document.querySelector("form");
 
-submitButton.disabled = true;
 const patterns = {
   firstName: /^([a-z])+$/i,
   lastName: /^([a-z])+$/i,
@@ -14,11 +14,6 @@ const patterns = {
 function validate(field, regex) {
   if (regex.test(field.value)) {
     field.className = "valid";
-    if ((field.className = "valid")) {
-      submitButton.disabled = false;
-    } else {
-      submitButton.disabled = true;
-    }
   } else {
     field.className = "invalid";
   }

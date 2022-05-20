@@ -49,7 +49,7 @@ li {
   width: 95px;
 }
 
-a {
+li > a {
   font-size: 18px;
   color: #e5e7eb;
   text-decoration: none;
@@ -223,12 +223,17 @@ footer {
   padding: 30px;
 }
 
-button:hover,
-a:hover {
+button:hover {
   background-color: white;
   color: #3882f6;
+  cursor: pointer;
 }
 
 img:hover {
   box-shadow: 5px 10px 30px #3882f6;
+}
+
+li > a {
+  padding: 10px;
+  border-radius: 10px;
 }
